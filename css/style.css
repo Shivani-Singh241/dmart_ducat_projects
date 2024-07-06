@@ -134,7 +134,7 @@ body{
 
 #pre, #next {
     position: absolute;
-    top: 40%;
+    top: 37%;
     transform: translateY(-50%);
     font-size: 24px;
     background-color: rgba(99, 97, 97, 0.5);

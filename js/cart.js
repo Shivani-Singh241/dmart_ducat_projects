@@ -85,9 +85,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function decreaseQuantity(index) {
         if (cart[index]) {
-            if (cart[index].quantity == 1) {
-                removeFromCart(index); // Remove item from cart if quantity is 1
-            } else {
+            if (cart[index].quantity === 1) {
+                // Remove item from cart if quantity is 1
+                removeFromCart(index);
+            } else if (cart[index].quantity > 1) {
                 cart[index].quantity--;
                 localStorage.setItem('cart', JSON.stringify(cart));
                 updateCart(); // Update UI
