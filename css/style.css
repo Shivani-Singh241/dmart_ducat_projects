@@ -1,0 +1,307 @@
+body{
+    margin: 0px;
+    background-color: #e4e2e2;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+
+.navimg img {
+    height: 50px;
+}
+
+.nav-text h5 {
+    margin: 0;
+    font-size: 15px;
+    color: #555;
+}
+
+.nav-text p {
+    margin: 0;
+    font-size: 10px;
+    color: #888;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    font-size: 14px;
+    width: 25rem;
+    height: 1.5rem;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #4cae4c;
+}
+
+.reglinks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.reglinks i {
+    font-size: 20px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.cart i {
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+.cart .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    margin-right: 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.cart .cart-price {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid  #c8c6c6;;
+    border-bottom: 1px solid #c8c6c6;
+    box-shadow: #888;
+}
+.menu p{
+    color: rgb(112, 112, 112);
+}
+ .menu h4{
+    margin-right: 11rem;
+ }
+.menu p {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.menu i {
+    margin-right: 10px;
+    margin-left: 1rem;
+}
+
+.swipe {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.slider {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#pre, #next {
+    position: absolute;
+    top: 37%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: rgba(99, 97, 97, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+#pre {
+    left: 10px;
+
+}
+
+#next {
+    right: 10px;
+}
+
+.popular {
+    padding: 20px;
+    border: 1px solid rgb(193, 191, 191);
+    margin: 1rem;
+    background-color: white;
+}
+
+.popularheading h3 {
+    margin-bottom: 20px;
+}
+
+.populardisp {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+.populardisp div {
+    text-align: center; /* Center text content */
+}
+
+.populardisp img {
+    margin-right: 20px; /* Adjust spacing between images */
+    width: 100%;
+    height: 230px;
+}
+
+
+.container {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(224, 255, 199);
+    font-weight: bold;
+}
+
+.containerhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.containerhead p {
+    font-size: 18px;
+}
+
+.containerhead a {
+    text-decoration: none;
+    color:black;
+    text-decoration: none;
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+}
+
+.product-card {
+    border: 2px solid #d0d0d0;
+    border-radius: 1rem;
+    padding: 5px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-info {
+    margin-top: 10px;
+}
+
+.product-info h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+.product-info p {
+    font-size: 14px;
+    color: #0a0a0a;
+}
+
+.add-to-cart {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #54ab54;
+    border-radius: 0.3rem;
+    height: 2rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #4cae4c;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    width: 100%;
+}
+
+.footerdown {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.otherconnect img {
+    margin: 0 3px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.options ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    font-size: 14px;
+    color: #aaa;
+    text-align: center;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
+.footer .downloadimg .img1, 
+.footer .downloadimg .img2 {
+    height: 100px; 
+    width: 150px; 
+    margin-right: 5px; /* Adds some spacing between the images */
+}
+
+.footer .downloadimg {
+    display: flex; /* Ensures the images are displayed inline */
+   
+}
