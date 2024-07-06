@@ -3,9 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DMart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    
+    <div class="navbar">
+        <div class="navimg">
+            <img src="./images/global/DMart.png" alt="DMart">
+        </div>
+        <div class="nav-text">
+            <h5>Earliest Home Delivery available</h5>
+            <p>Sunday 07:00 AM - 10:00 AM</p>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search for"/>
+            <button>Search</button>
+        </div>
+        <div class="reglinks">
+            <i class="fa-regular fa-user"></i>
+            Sign In / Register
+        </div>
+        <div class="cart" id="cartIcon">
+            <i class="fa-regular fa-bell"></i>
+            <a href="product.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <span class="cart-count">0</span>
+        </div>
+    </div>
+    <div class="menu">
+        <i class="fa-solid fa-bars"></i> <h4>All Categories</h4>
+        <p>Ready To Cook </p>     
+        <p>Value Packs</p>
+        <p>Home Appliances </p>
+        <p>Cookware</p>
+        <p>Serverware</p>
+        <p>Cleaners</p>
+        <p>Detergent and Fabric Care</p>
+    </div>
+    <div class="swipe">
+        <div class="slider">
+            <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F16may24-crsl-st-kitchenmela.jpg&w=3840&q=75">
+            </div>
+            <div class="slider">
+            <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1jun24-crsl-ds.jpg&w=3840&q=75">
+            </div>
+            <div class="slider">
+                <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1may24-crsl-beautystore.jpg&w=3840&q=75">
+            </div>
+            <div class="slider">
+                <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F27june24-crsl-newarrival.jpg&w=3840&q=75">
+            </div>
+            <div class="slider">
+                <img src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F16may24-crsl-st-kitchenmela.jpg&w=3840&q=75">
+            </div>
+            <div class="slider">
+                <img src = "https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1jun24-crsl-ds.jpg&w=3840&q=75">
+            </div>
+        </div>
+        <div id="pre"><</div>
+        <div id="next">></div>
+    </div>
+    <div class="popular">
+        <div class="popularheading">
+            <h3>Popular Categories</h3>
+        </div>
+        <div class="populardisp">
+            <div class="tea">
+                <img src="https://cdn.dmart.in/images/rwd/banners/cards/12sept23-popularcat-tea1.png">
+                <h5 style="padding-top: 20px; position: relative;">Tea</h5>
+            </div>
+            <div class="coffee">
+                <img src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-coffee.png">
+                <h5 style="padding-top: 20px; position: relative;">Coffee</h5>
+            </div>
+            <div class="dairy">
+                <img src="https://cdn.dmart.in/images/rwd/banners/cards/1may23-popularcat-dairy.png">
+                <h5 style="padding-top: 20px; position: relative;">Dairy</h5>
+            </div>
+            <div class="shampoo">
+                <img src="https://cdn.dmart.in/images/rwd/banners/cards/12jan24-popularcat-shampoos.png">
+                <h5 style="padding-top: 20px; position: relative;">Shampoo</h5>
+            </div>
+            <div class="towel">
+                <img src="https://cdn.dmart.in/images/rwd/banners/cards/1apr24-popularcat-towels.png">
+                <h5 style="padding-top: 20px; position: relative;">Towel</h5>
+            </div>
+        </div>
+    </div>
+    <div class="monsoon">
+        <img src="https://cdn.dmart.in/images/rwd/banners/curated/1jun24-curated-monsoon-hp2.jpg">
+    </div>
+    <div class="halfprice">
+        <img src="https://cdn.dmart.in/images/rwd/banners/curated/1jun24-curated-halfprice1.jpg">
+    </div>
+    <div class="container">
+        <div class="containerhead">
+            <p>New in Gardening</p>
+            <a href="">View All</a>
+        </div>
+        <div class="products">
+            <div class="product-card">
+                <img src="https://cdn.dmart.in/images/products/JUN150006800xx28JUN24_5_P.jpg" alt="Vermicompost">
+                <div class="product-info">
+                    <h3>Ugaoo Vermicompost Fertilizer For Plants: 5kg</h3>
+                    <p>Price: ₹299</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://cdn.dmart.in/images/products/JUN150006806xx28JUN24_5_P.jpg" alt="Plant Food Fertilizer">
+                <div class="product-info">
+                    <h3>Ugaoo Plant Food Fertilizer: Pack of 20</h3>
+                    <p>Price: ₹269</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://cdn.dmart.in/images/products/JUN150006801xx28JUN24_5_P.jpg" alt="Manure">
+                <div class="product-info">
+                    <h3>Ugaoo Cow Dung Manure For Plants</h3>
+                    <p>Price: ₹199</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://cdn.dmart.in/images/products/JUN150006809xx28JUN24_5_P.jpg" alt="Coriander">
+                <div class="product-info">
+                    <h3>Ugaoo Coriander Seeds For Planting</h3>
+                    <p>Price: ₹49</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://cdn.dmart.in/images/products/JUN150006804xx28JUN24_5_P.jpg" alt="Brick">
+                <div class="product-info">
+                    <h3>Ugaoo Organic CocoPeat Brick Plant </h3>
+                    <p>Price: ₹99</p>
+                    <button class="add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerdown">
+            Download DMart Ready Mobile App Now!!
+        </div>
+        <div class="downloadimg">
+            <a href="https://itunes.apple.com/in/app/dmart-online-grocery-shop/id1121933197"><img class="img1" src="https://cdn.dmart.in/images/rwd/footer/google-play.svg"></a>
+            <a href="https://itunes.apple.com/in/app/dmart-online-grocery-shop/id1121933197"><img class="img2" src="https://cdn.dmart.in/images/rwd/footer/download-app-store.svg"></a>
+        </div>
+        <div class="otherconnect">
+            <img src="https://cdn.dmart.in/images/rwd/footer/visa.svg">
+            <img src="https://cdn.dmart.in/images/rwd/footer/mastercard.svg">
+            <img src="https://cdn.dmart.in/images/rwd/footer/american.svg">
+            <img src="https://cdn.dmart.in/images/rwd/footer/rupay.svg">
+            <img src="https://cdn.dmart.in/images/rwd/footer/cash_outlined.svg">
+        </div>
+        <div class="options">
+            <div class="footoptions">
+                <ul>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                    <li>Pricing, Delivery, Return and Refund Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>Disclaimer</li>
+                </ul>
+            </div>
+            <div class="footoptions2">
+                <ul>
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                    <li>Join Us</li>
+                    <li>Pickup Points</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            Copyright © 2024 Avenue E-Commerce Limited (AEL). All Rights Reserved.
+        </div>
+    </div>
+
 </body>
 </html>
+<script src="js/indexjs.js"></script>
