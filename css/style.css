@@ -270,7 +270,8 @@ body{
 .options {
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
+    margin-left: 30rem;
+    margin-top: 0rem;
 }
 
 .options ul {
