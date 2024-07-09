@@ -1,0 +1,347 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+main
+{
+ width: 1200px;
+ height: 600px;
+ margin-left: 27px;
+ margin-right: 50px;
+
+}
+nav
+{
+    height: 100px;
+    width: 1200px;
+
+}
+.class1
+{
+    height: 500px;
+    width: 1100px;
+    padding: 20px;
+    display: flex;
+
+}
+section
+{   
+    flex: 1;
+    height:450px ;
+    width:500px ;
+    padding: 30px;
+}
+.div1
+{
+    height:400px ;
+    width: 50px;
+    border: 1px solid rgb(213, 213, 213);
+    margin: 20px;
+    /* overflow: hidden; */
+}
+#section1
+{
+    display: flex;
+    padding: 10px;
+}
+#section1>div
+{
+    flex: 1;
+    /* border: 2px solid green; */
+}
+#section1>div:nth-child(2)
+{
+    flex: 4;
+    padding: 40px;
+}
+section>span
+{
+height: 50px;
+width: 50px;
+border: 2px solid red;
+overflow: hidden;
+}
+span>img
+{
+    height: 100px;
+    width: 70px;
+    margin: 2px;
+    margin-top: 20px;
+    border: 2px solid rgb(191, 191, 191);
+    border-radius: 5px;
+}
+.zoomin
+{
+    transition: transform 0.5s ease;
+    position:center;
+    border: 1px solid rgb(213, 213, 213);
+
+    box-sizing: border-box;
+}
+.img:hover
+{
+    transform: scale(1.5); /* Adjust the scale value as needed */
+    position: center;
+}
+.font
+{
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+font
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: var(--font-md);
+}
+h2
+{
+    color: rgb(15, 109, 141);
+}
+#kg1
+{
+    width: 100px;
+    height: 20px;
+    border: 2px solid #25a541;
+    /* float: left; */
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size:25px;
+    color: #25a541;
+}
+hr
+{
+    margin-top: 10px;
+    border-color: rgb(242, 240, 240);
+}
+#rs
+{
+    width: 80px;
+    height: 20px;
+    margin-left: 8px;
+    float: left;
+    margin-top: 1px;
+    /* padding: 5px; */
+    text-align: center;
+    border-radius: 2px;
+    font-size:12px;
+    padding-top: 4px;
+    color: rgb(81, 82, 81);
+    background-color: rgb(233, 230, 230);
+}
+#rs2
+{
+    float: left;
+}
+#save
+{
+    width: 70px;
+    height: 8px;
+    background-color: rgb(217, 245, 217);
+    /* float: left; */
+    padding: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-size:15px;
+    color: #25a541;
+}
+.seperate
+{
+    width: 500px;
+    height: 80px;
+    margin-top: 20px;
+    display: flex;
+}
+.seperate>div:nth-child(2)
+{
+    flex: 4;
+    margin: 30px;
+    padding-left: 150px;
+}
+.span
+{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color:#25a541;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(102, 101, 101);
+}
+.navbar {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1;
+    position: fixed;
+
+}
+
+.navimg img {
+    width: 150px;
+    height: 100px;
+}
+
+.nav-text h5 {
+    margin: 0;
+    font-size: 15px;
+    color: #555;
+}
+
+.nav-text p {
+    margin: 0;
+    font-size: 10px;
+    color: #888;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    font-size: 14px;
+    width: 25rem;
+    height: 1.5rem;
+}
+
+.search-container button {
+    padding: 5px 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #4cae4c;
+}
+
+.reglinks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.reglinks i {
+    font-size: 20px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.cart i {
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+.cart .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    margin-right: 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.cart .cart-price {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #555;
+}
+footer
+{
+    height: 200px;
+    width: 1300px;
+    margin-left: 10px;
+    background-color: white;
+}
+.footerdown {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.otherconnect img {
+    margin: 0 3px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30rem;
+    margin-top: 0rem;
+}
+
+.options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.options ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    font-size: 14px;
+    color: #aaa;
+    text-align: center;
+}
+
+.hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
+.footer .downloadimg .img1, 
+.footer .downloadimg .img2 {
+    height: 100px; 
+    width: 150px; 
+    margin-right: 5px; /* Adds some spacing between the images */
+}
+
+.footer .downloadimg {
+    display: flex; /* Ensures the images are displayed inline */
+   
+}
+.dc
+{
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+#myList {
+    list-style-type: none;
+    padding: 0;
+    color: #25a541 ;
+    display: flex;
+}
+
+#myList li {
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    margin: 5px 0;
+    cursor: pointer;
+}
+#myList li:hover {
+    background-color: rgb(217, 245, 217);
+}
+
+#contentDisplay {
+    margin-top: 20px;
+    height: auto;
+    padding: 20px;
+}
